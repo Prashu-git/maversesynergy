@@ -25,16 +25,13 @@
 }
 
 .course-desc {
-    text-align: left;
     color: #222831;
-    text-align: left;
     font-size: 20px;
     font-weight: 500;
     line-height: 2;
     margin-bottom: 3vh;
     padding-left: 80px;
     padding-right: 80px;
-    flex: 1;
 }
 
 .course-img {

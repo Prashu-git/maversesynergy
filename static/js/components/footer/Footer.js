@@ -34,7 +34,7 @@ function Footer() {
                 </ul>
             </div>
 
-            <div className="corporate-office">
+            {/* <div className="corporate-office">
                 <div className="new-column">
                     <h2>  </h2>
                     <ul>
@@ -43,7 +43,7 @@ function Footer() {
                     <li><Link to="/" style={{ textDecoration: "none", color: "inherit" }}>Home</Link></li>                    <li><Link to="/" style={{ textDecoration: "none", color: "inherit" }}>Home</Link></li>
                     <li><Link to="/" style={{ textDecoration: "none", color: "inherit" }}>Home</Link></li>
                     </ul>
-                </div>
+                </div> */}
 
                 <h2>Company Address</h2>
                 <p>
@@ -53,7 +53,7 @@ function Footer() {
                 <em>Email: cloutgroups@gmail.com</em> <br/>
                 <em>Phone number: 9845007300</em>
             </div>
-        </div>
+        
     );
 }
 

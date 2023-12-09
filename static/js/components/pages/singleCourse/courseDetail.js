@@ -2,6 +2,8 @@ const courseDetail = [{
         id: "1",
         title: "Vedic Maths And Abacus",
         description: "",
+        syllabus: [],
+
         
     },
     {
@@ -17,7 +19,7 @@ const courseDetail = [{
         // instructor: "",
         // duration: "",
         // syllabusTitle: "",
-        // syllabus: [],
+        syllabus: [],
     },
     {
         id: "4",

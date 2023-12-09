@@ -17,12 +17,12 @@ const SingleCourse = () => {
             <div className="course-desc-container">
                 <p className="course-desc">{selectedCourse.description}</p>
             </div>
-            {/* <h4 className="syl-title">{selectedCourse.syllabusTitle}</h4>
+            <h4 className="syl-title">{selectedCourse.syllabusTitle}</h4>
             <ul className="course-chapter">
                 {selectedCourse.syllabus.map((chapter) => (
                     <li key={chapter.id}>{chapter.title}</li>
                 ))}
-            </ul> */}
+            </ul>
             {/* <p className="course-tech">Instructor: {selectedCourse.instructor}</p>
             <p className="course-dur">Duration: {selectedCourse.duration}</p> */}
         </div>
