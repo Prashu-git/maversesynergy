@@ -1,0 +1,111 @@
+.course-detail {
+    padding: 8rem 0;
+}
+
+.course-title {
+    color: #00adb5;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.course-desc-container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-desc {
+    text-align: left;
+    color: #222831;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 3vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex: 1;
+}
+
+.course-img {
+    object-fit: cover;
+    max-width: 50%;
+    margin-right: 2rem;
+}
+
+.course-tech {
+    padding: 0 80px;
+    text-align: left;
+    flex: 1;
+    color: #00adb5;
+}
+
+.course-dur {
+    padding: 0 80px;
+    margin-top: 30px;
+    text-align: left;
+    flex: 1;
+    color: #00adb5;
+}
+
+.syl-title {
+    color: #393E46;
+    text-align: center;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.course-chapter {
+    color: #999999;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-bottom: 3vh;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+    .course-desc-container {
+        margin: 0 20px;
+    }
+    .course-desc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .course-tech,
+    .course-dur,
+    .course-chapter {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .course-desc-container {
+        margin: 0 10px;
+    }
+    .course-desc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .course-tech,
+    .course-dur,
+    .course-chapter {
+        padding: 0 10px;
+    }
+}

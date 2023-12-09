@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /static/
+Disallow: /manifest.json
+Disallow: /logo192.png
+Disallow: /path/to/favicon.ico

@@ -1,0 +1,115 @@
+.learning {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    height: auto;
+}
+
+.learning-img {
+    float: left;
+    width: 50%;
+}
+
+.limage {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learning-content {
+    width: 50%;
+    float: right;
+    padding-top: 7vh;
+    padding-left: 4vw;
+}
+
+.learning-title {
+    color: #00adb5;
+    text-align: left;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.learning-subTitle {
+    color: #222831;
+    text-align: left;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 3vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .learning {
+        flex-direction: column;
+        padding: 10vh 4vw;
+    }
+    .learning-img {
+        height: 25vh;
+        margin-bottom: 4vh;
+        width: 100%;
+        display: none;
+    }
+    .learning-content {
+        width: 100%;
+        padding: 0;
+    }
+    .learning-subTitle {
+        font-size: 2.5rem;
+        margin-bottom: 2vh;
+    }
+}
+
+.learning-card {
+    margin-bottom: 1.5rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.learning-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2vh 2vw;
+}
+
+.learning-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+}
+
+.learning-card-icon i {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.learning-card-subcontent {
+    flex-grow: 1;
+    padding: 0 2vw;
+}
+
+.learning-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.learning-card-desc {
+    font-size: 1rem bold;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    text-align: left;
+}
